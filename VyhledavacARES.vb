@@ -6,7 +6,7 @@ Module VyhledavacARES
     Const ARES_API_URL As String = "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/"
     Const BEARER_TOKEN As String = "604208743"
 
-    Public Async Function VyhledejIcoAsync(ico As String) As Task
+    Public Async Function VyhledejIcoAsync(ico As String) As Task(Of String)
         Try
             ' Volání funkce pro získání informací o subjektu
             Dim result As String = Await GetARESInfoAsync(ico)
@@ -15,7 +15,10 @@ Module VyhledavacARES
             Dim formattedResult As String = FormatARESInfo(result)
 
             ' Uložení do txt souboru
-            File.WriteAllText("ICO_output.txt", formattedResult)
+            ' File.WriteAllText("ICO_output.txt", formattedResult)
+
+            ' Vrátí string
+            Return formattedResult
         Catch ex As Exception
             ' Ošetření chyby a zobrazení odpovídající zprávy
             ' MessageBox.Show($"Chyba při vyhledávání IČO: {ex.Message}")
