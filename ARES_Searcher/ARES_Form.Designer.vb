@@ -29,6 +29,7 @@ Partial Class ARES_Form
         Vysledek_GroupBox = New GroupBox()
         Vysledek_TextBox = New TextBox()
         Vysledek_Label = New Label()
+        Chyba_Label = New Label()
         Vysledek_GroupBox.SuspendLayout()
         SuspendLayout()
         ' 
@@ -91,11 +92,24 @@ Partial Class ARES_Form
         Vysledek_Label.TabIndex = 0
         Vysledek_Label.Text = "Výsledek"
         ' 
+        ' Chyba_Label
+        ' 
+        Chyba_Label.AutoSize = True
+        Chyba_Label.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Chyba_Label.ForeColor = Color.Red
+        Chyba_Label.Location = New Point(280, 24)
+        Chyba_Label.Name = "Chyba_Label"
+        Chyba_Label.Size = New Size(131, 25)
+        Chyba_Label.TabIndex = 4
+        Chyba_Label.Text = "* Neplatné IČO"
+        Chyba_Label.Visible = False
+        ' 
         ' ARES_Form
         ' 
         AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(537, 377)
+        Controls.Add(Chyba_Label)
         Controls.Add(Vysledek_GroupBox)
         Controls.Add(ZadejICO_Label)
         Controls.Add(Hledej_Button)
@@ -116,5 +130,6 @@ Partial Class ARES_Form
     Friend WithEvents Vysledek_GroupBox As GroupBox
     Friend WithEvents Vysledek_Label As Label
     Friend WithEvents Vysledek_TextBox As TextBox
+    Friend WithEvents Chyba_Label As Label
 
 End Class

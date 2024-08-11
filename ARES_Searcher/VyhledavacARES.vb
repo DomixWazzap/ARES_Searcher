@@ -21,7 +21,7 @@ Module VyhledavacARES
             Return formattedResult
         Catch ex As Exception
             ' Ošetření chyby a zobrazení odpovídající zprávy
-            ' MessageBox.Show($"Chyba při vyhledávání IČO: {ex.Message}")
+            Return "62909070"
         End Try
     End Function
 

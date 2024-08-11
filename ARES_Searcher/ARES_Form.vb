@@ -24,19 +24,27 @@
     Private Async Sub Hledej_Button_Click(sender As Object, e As EventArgs) Handles Hledej_Button.Click
         If Not String.IsNullOrEmpty(ico) AndAlso IsValidICO(ico) Then
             vysledek = Await VyhledejIcoAsync(ico)
-            If Not String.IsNullOrEmpty(vysledek) Then
+            If Not String.IsNullOrEmpty(vysledek) AndAlso Not vysledek.StartsWith("Došlo k chybě") Then
                 ' Rozdělit výsledky a zobrazit je ve formuláři
                 Dim parts = vysledek.Split(";"c)
-                Vysledek_TextBox.Text = $"{parts(0)}{Environment.NewLine}" &
-                                        $"{parts(1)}{Environment.NewLine}" &
-                                        $"{parts(2)}{Environment.NewLine}" &
-                                        $"{parts(3)}{Environment.NewLine}" &
-                                        $"{parts(4)}"
+                If parts.Length >= 5 Then
+                    Vysledek_TextBox.Text = $"{parts(0)}{Environment.NewLine}" &
+                                            $"{parts(1)}{Environment.NewLine}" &
+                                            $"{parts(2)}{Environment.NewLine}" &
+                                            $"{parts(3)}{Environment.NewLine}" &
+                                            $"{parts(4)}"
+                    Chyba_Label.Visible = False
+                Else
+                    Chyba_Label.Visible = True
+                    Vysledek_TextBox.Text = ""
+                End If
+            Else
+                Vysledek_TextBox.Text = vysledek
             End If
         Else
-            MessageBox.Show("Prosím zadejte platné IČO.")
+            Chyba_Label.Visible = True
         End If
-
     End Sub
+
 
 End Class
