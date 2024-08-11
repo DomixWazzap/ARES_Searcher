@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{751F8C3D-6ACB-4A74-83FA-CAF0765FDB2A}|ARES_Searcher\\ARES_Searcher.vbproj|c:\\users\\domix\\source\\repos\\ares_searcher\\ares_searcher\\ares_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{751F8C3D-6ACB-4A74-83FA-CAF0765FDB2A}|ARES_Searcher\\ARES_Searcher.vbproj|solutionrelative:ares_searcher\\ares_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751F8C3D-6ACB-4A74-83FA-CAF0765FDB2A}|ARES_Searcher\\ARES_Searcher.vbproj|c:\\users\\domix\\source\\repos\\ares_searcher\\ares_searcher\\ares_form.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{751F8C3D-6ACB-4A74-83FA-CAF0765FDB2A}|ARES_Searcher\\ARES_Searcher.vbproj|solutionrelative:ares_searcher\\ares_form.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751F8C3D-6ACB-4A74-83FA-CAF0765FDB2A}|ARES_Searcher\\ARES_Searcher.vbproj|c:\\users\\domix\\source\\repos\\ares_searcher\\ares_searcher\\ares_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{751F8C3D-6ACB-4A74-83FA-CAF0765FDB2A}|ARES_Searcher\\ARES_Searcher.vbproj|solutionrelative:ares_searcher\\ares_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751F8C3D-6ACB-4A74-83FA-CAF0765FDB2A}|ARES_Searcher\\ARES_Searcher.vbproj|c:\\users\\domix\\source\\repos\\ares_searcher\\ares_searcher\\vyhledavacares.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{751F8C3D-6ACB-4A74-83FA-CAF0765FDB2A}|ARES_Searcher\\ARES_Searcher.vbproj|solutionrelative:ares_searcher\\vyhledavacares.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ARES_Form.vb",
+              "DocumentMoniker": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\ARES_Searcher\\ARES_Form.vb",
+              "RelativeDocumentMoniker": "ARES_Searcher\\ARES_Form.vb",
+              "ToolTip": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\ARES_Searcher\\ARES_Form.vb",
+              "RelativeToolTip": "ARES_Searcher\\ARES_Form.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-11T17:23:00.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VyhledavacARES.vb",
+              "DocumentMoniker": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\ARES_Searcher\\VyhledavacARES.vb",
+              "RelativeDocumentMoniker": "ARES_Searcher\\VyhledavacARES.vb",
+              "ToolTip": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\ARES_Searcher\\VyhledavacARES.vb",
+              "RelativeToolTip": "ARES_Searcher\\VyhledavacARES.vb",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-11T17:22:46.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ARES_Form.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\ARES_Searcher\\ARES_Form.Designer.vb",
+              "RelativeDocumentMoniker": "ARES_Searcher\\ARES_Form.Designer.vb",
+              "ToolTip": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\ARES_Searcher\\ARES_Form.Designer.vb",
+              "RelativeToolTip": "ARES_Searcher\\ARES_Form.Designer.vb",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-11T17:22:34.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ARES_Form.vb [N\u00E1vrh]",
+              "DocumentMoniker": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\ARES_Searcher\\ARES_Form.vb",
+              "RelativeDocumentMoniker": "ARES_Searcher\\ARES_Form.vb",
+              "ToolTip": "C:\\Users\\domix\\source\\repos\\ARES_Searcher\\ARES_Searcher\\ARES_Form.vb [N\u00E1vrh]",
+              "RelativeToolTip": "ARES_Searcher\\ARES_Form.vb [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-11T17:22:30.674Z",
+              "EditorCaption": " [N\u00E1vrh]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
